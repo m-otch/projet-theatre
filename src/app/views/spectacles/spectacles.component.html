@@ -1,0 +1,10 @@
+<p>spectacles works!</p>
+
+
+@if (spectacles) {
+    @for (spectacle of spectacles; track $index) {
+        <h2>{{ spectacle.name }}</h2>
+        <p>Date: {{ spectacle.date }}</p>
+        <p>{{ spectacle.duration }}</p>
+    }
+}

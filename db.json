@@ -1,0 +1,222 @@
+{
+  "spectacles": [
+    {
+      "id": "1",
+      "name": "Laughter Unlimited",
+      "date": "2023-10-01",
+      "description": "A comedy show featuring various stand-up comedians.",
+      "duration": "2 hours",
+      "hour": "20:00",
+      "status": "complete",
+      "type": "Comedy",
+      "capacity": "200"
+    },
+    {
+      "id": "2",
+      "name": "Rock the Night",
+      "date": "2023-10-02",
+      "description": "A musical concert by a popular band.",
+      "duration": "3 hours",
+      "hour": "19:00",
+      "status": "done",
+      "type": "Music",
+      "capacity": "500"
+    },
+    {
+      "id": "3",
+      "name": "Mystic Illusions",
+      "date": "2023-10-03",
+      "description": "A magic show with a renowned magician.",
+      "duration": "1.5 hours",
+      "hour": "21:00",
+      "status": "incoming",
+      "type": "Magic",
+      "capacity": "300"
+    },
+    {
+      "id": "4",
+      "name": "Timeless Tales",
+      "date": "2023-10-04",
+      "description": "A theater play based on a classic novel.",
+      "duration": "2.5 hours",
+      "hour": "18:30",
+      "status": "full",
+      "type": "Theater",
+      "capacity": "250"
+    },
+    {
+      "id": "5",
+      "name": "Art Unleashed",
+      "date": "2023-10-05",
+      "description": "An art exhibition showcasing contemporary artists.",
+      "duration": "All day",
+      "hour": "10:00",
+      "status": "complete",
+      "type": "Art",
+      "capacity": "1000"
+    },
+    {
+      "id": "6",
+      "name": "Rhythm and Grace",
+      "date": "2023-10-06",
+      "description": "A dance performance by a renowned dance troupe.",
+      "duration": "2 hours",
+      "hour": "19:30",
+      "status": "done",
+      "type": "Dance",
+      "capacity": "300"
+    },
+    {
+      "id": "7",
+      "name": "Indie Flicks",
+      "date": "2023-10-07",
+      "description": "A film festival featuring independent films.",
+      "duration": "3 days",
+      "hour": "10:00",
+      "status": "incoming",
+      "type": "Film",
+      "capacity": "500"
+    },
+    {
+      "id": "8",
+      "name": "Taste the World",
+      "date": "2023-10-08",
+      "description": "A food festival celebrating international cuisines.",
+      "duration": "2 days",
+      "hour": "12:00",
+      "status": "full",
+      "type": "Food",
+      "capacity": "2000"
+    },
+    {
+      "id": "9",
+      "name": "Fashion Forward",
+      "date": "2023-10-09",
+      "description": "A fashion show showcasing upcoming designers.",
+      "duration": "2 hours",
+      "hour": "18:00",
+      "status": "complete",
+      "type": "Fashion",
+      "capacity": "250"
+    },
+    {
+      "id": "10",
+      "name": "Soundwave Festival",
+      "date": "2023-10-10",
+      "description": "A music festival featuring various genres.",
+      "duration": "3 days",
+      "hour": "14:00",
+      "status": "done",
+      "type": "Music",
+      "capacity": "1000"
+    },
+    {
+      "id": "0d92"
+    },
+    {
+      "id": "7e68"
+    },
+    {
+      "id": "c702"
+    }
+  ],
+  "artists": [
+    {
+      "id": "1",
+      "firstname": "Charlie",
+      "lastname": "Chaplin",
+      "type": "Actor"
+    },
+    {
+      "id": "2",
+      "firstname": "Bob",
+      "lastname": "Marley",
+      "type": "Musician"
+    },
+    {
+      "id": "3",
+      "firstname": "Robin",
+      "lastname": "Williams",
+      "type": "Humorist"
+    },
+    {
+      "id": "4",
+      "firstname": "Madonna",
+      "lastname": "Ciccone",
+      "type": "Musician"
+    },
+    {
+      "id": "5",
+      "firstname": "Jim",
+      "lastname": "Carrey",
+      "type": "Humorist"
+    },
+    {
+      "id": "6",
+      "firstname": "Meryl",
+      "lastname": "Streep",
+      "type": "Actor"
+    },
+    {
+      "id": "7",
+      "firstname": "Elton",
+      "lastname": "John",
+      "type": "Musician"
+    },
+    {
+      "id": "8",
+      "firstname": "Eddie",
+      "lastname": "Murphy",
+      "type": "Humorist"
+    },
+    {
+      "id": "9",
+      "firstname": "Robert",
+      "lastname": "De Niro",
+      "type": "Actor"
+    },
+    {
+      "id": "10",
+      "firstname": "Beyoncé",
+      "lastname": "Knowles",
+      "type": "Musician"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "johndoe@example.com",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": "2",
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "email": "janesmith@example.com",
+      "phone": "234-567-8901"
+    },
+    {
+      "id": "3",
+      "firstname": "Mike",
+      "lastname": "Johnson",
+      "email": "mikejohnson@example.com",
+      "phone": "345-678-9012"
+    },
+    {
+      "id": "4",
+      "firstname": "Emily",
+      "lastname": "Davis",
+      "email": "emilydavis@example.com",
+      "phone": "456-789-0123"
+    },
+    {
+      "id": "5",
+      "firstname": "Chris",
+      "lastname": "Wilson",
+      "email": "chriswilson@example.com",
+      "phone": "567-890-1234"
+    }
+  ]
+}
