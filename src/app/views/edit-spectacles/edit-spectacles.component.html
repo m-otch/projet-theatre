@@ -1,5 +1,4 @@
-<p>spectacles works!</p>
-
+<p>edit-spectacles works!</p>
 <form [formGroup]="form" (ngSubmit)="onSubmit()" style="display: flex; flex-direction: column; width: fit-content;">
     <label for="date">Date</label>
     <input type="date" id="date" formControlName="date">
@@ -24,18 +23,6 @@
 
     <label for="hour">Hour</label>
     <input type="text" id="hour" formControlName="hour">
-    
-    <button type="submit" [disabled]="form.invalid">
-        Submit
-    </button>
-</form>
 
-@if (spectacles) {
-    @for (spectacle of spectacles; track $index) {
-        <h2>{{ spectacle.name }}</h2>
-        <p>Date: {{ spectacle.date }}</p>
-        <p>{{ spectacle.duration }}</p>
-        <button [routerLink]="['/edit-spectacle', spectacle.id]">Edit</button>
-        <button (click)="deleteSpectacle(spectacle.id)">Supprimer</button>
-    }
-}
+    <button type="submit" [disabled]="form.invalid">Update</button>
+</form>

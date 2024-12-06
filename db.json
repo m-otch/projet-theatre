@@ -1,15 +1,15 @@
 {
   "spectacles": [
     {
-      "id": "1",
-      "name": "Laughter Unlimited",
       "date": "2023-10-01",
+      "name": "Unlimited Laughter",
+      "duration": 2,
       "description": "A comedy show featuring various stand-up comedians.",
-      "duration": "2 hours",
-      "hour": "20:00",
       "status": "complete",
       "type": "Comedy",
-      "capacity": "200"
+      "capacity": "200",
+      "hour": "20:00",
+      "id": "1"
     },
     {
       "id": "2",
@@ -109,15 +109,6 @@
       "status": "done",
       "type": "Music",
       "capacity": "1000"
-    },
-    {
-      "id": "0d92"
-    },
-    {
-      "id": "7e68"
-    },
-    {
-      "id": "c702"
     }
   ],
   "artists": [

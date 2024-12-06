@@ -1,11 +1,11 @@
 export class Spectacles {
-    id?: number;
-    date!: number;
+    id!: number;
+    date!: string;
     name!: string;
-    duration!: number;
+    duration!: string;
     description!: string;
     status!: string;
     type!: string;
     capacity!: number;
-    hour!: number;
+    hour!: string;
 }

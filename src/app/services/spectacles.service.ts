@@ -15,8 +15,19 @@ export class SpectaclesService {
     return this.http.get<Spectacles[]>(this.baseUrl);
   }
 
+  getSpectacleById(id: number): Observable<Spectacles> {
+    return this.http.get<Spectacles>(`${this.baseUrl}/${id}`);
+  }
+  
   addSpectacles(spectacles: Spectacles): Observable<Spectacles> {
     return this.http.post<Spectacles>(this.baseUrl, spectacles);
   }
 
+  updateSpectacles(id: number, spectacle: Spectacles): Observable<Spectacles> {
+    return this.http.put<Spectacles>(`${this.baseUrl}/${id}`, spectacle);
+  }
+
+  deleteSpectacle(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.baseUrl}/${id}`);
+  }
 }
