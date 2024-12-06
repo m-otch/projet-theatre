@@ -1,15 +1,16 @@
 {
   "spectacles": [
     {
+      "id": "1",
+      "name": "Laughter Unlimited",
       "date": "2023-10-01",
-      "name": "Unlimited Laughter",
-      "duration": 2,
       "description": "A comedy show featuring various stand-up comedians.",
+      "duration": "2 hours",
+      "hour": "20:00",
       "status": "complete",
       "type": "Comedy",
       "capacity": "200",
-      "hour": "20:00",
-      "id": "1"
+      "artistId": "1"
     },
     {
       "id": "2",
@@ -20,7 +21,8 @@
       "hour": "19:00",
       "status": "done",
       "type": "Music",
-      "capacity": "500"
+      "capacity": "500",
+      "artistId": "2"
     },
     {
       "id": "3",
@@ -31,7 +33,8 @@
       "hour": "21:00",
       "status": "incoming",
       "type": "Magic",
-      "capacity": "300"
+      "capacity": "300",
+      "artistId": "1"
     },
     {
       "id": "4",
@@ -42,7 +45,8 @@
       "hour": "18:30",
       "status": "full",
       "type": "Theater",
-      "capacity": "250"
+      "capacity": "250",
+      "artistId": "2"
     },
     {
       "id": "5",
@@ -53,7 +57,8 @@
       "hour": "10:00",
       "status": "complete",
       "type": "Art",
-      "capacity": "1000"
+      "capacity": "1000",
+      "artistId": "4"
     },
     {
       "id": "6",
@@ -64,7 +69,8 @@
       "hour": "19:30",
       "status": "done",
       "type": "Dance",
-      "capacity": "300"
+      "capacity": "300",
+      "artistId": "5"
     },
     {
       "id": "7",
@@ -75,7 +81,8 @@
       "hour": "10:00",
       "status": "incoming",
       "type": "Film",
-      "capacity": "500"
+      "capacity": "500",
+      "artistId": "7"
     },
     {
       "id": "8",
@@ -86,7 +93,8 @@
       "hour": "12:00",
       "status": "full",
       "type": "Food",
-      "capacity": "2000"
+      "capacity": "2000",
+      "artistId": "4"
     },
     {
       "id": "9",
@@ -97,80 +105,130 @@
       "hour": "18:00",
       "status": "complete",
       "type": "Fashion",
-      "capacity": "250"
+      "capacity": "250",
+      "artistId": "4"
     },
     {
+      "date": "2025-01-07",
+      "name": "Testingg",
+      "duration": "2 hours",
+      "description": "test",
+      "status": "full",
+      "type": "music",
+      "capacity": 100,
+      "hour": "2.5 hours",
       "id": "10",
-      "name": "Soundwave Festival",
-      "date": "2023-10-10",
-      "description": "A music festival featuring various genres.",
-      "duration": "3 days",
-      "hour": "14:00",
-      "status": "done",
-      "type": "Music",
-      "capacity": "1000"
+      "artistId": "2"
     }
   ],
   "artists": [
     {
       "id": "1",
-      "firstname": "Charlie",
-      "lastname": "Chaplin",
-      "type": "Actor"
+      "type": "musician",
+      "firstname": "John",
+      "lastname": "Lennon",
+      "biography": "John Lennon was a British musician, singer and songwriter, who gained worldwide fame as a co-founder of the Beatles.",
+      "email": "john@example.com",
+      "phone": "123-456-7890"
     },
     {
       "id": "2",
-      "firstname": "Bob",
-      "lastname": "Marley",
-      "type": "Musician"
+      "type": "actor",
+      "firstname": "Robert",
+      "lastname": "De Niro",
+      "biography": "Robert De Niro is an American actor, producer, and director. He is regarded as one of the greatest actors of his generation.",
+      "email": "robert@example.com",
+      "phone": "234-567-8901"
     },
     {
       "id": "3",
-      "firstname": "Robin",
-      "lastname": "Williams",
-      "type": "Humorist"
+      "type": "humorist",
+      "firstname": "Ellen",
+      "lastname": "DeGeneres",
+      "biography": "Ellen DeGeneres is an American comedian, television host, actress, and producer. She is known for her stand-up comedy and her talk show.",
+      "email": "ellen@example.com",
+      "phone": "345-678-9012"
     },
     {
       "id": "4",
+      "type": "musician",
       "firstname": "Madonna",
       "lastname": "Ciccone",
-      "type": "Musician"
+      "biography": "Madonna is an American singer, songwriter, and actress. She is known for pushing the boundaries of songwriting in mainstream popular music.",
+      "email": "madonna@example.com",
+      "phone": "456-789-0123"
     },
     {
       "id": "5",
-      "firstname": "Jim",
-      "lastname": "Carrey",
-      "type": "Humorist"
+      "type": "actor",
+      "firstname": "Meryl",
+      "lastname": "Streep",
+      "biography": "Meryl Streep is an American actress. She is often described as the best actress of her generation.",
+      "email": "meryl@example.com",
+      "phone": "567-890-1234"
     },
     {
       "id": "6",
-      "firstname": "Meryl",
-      "lastname": "Streep",
-      "type": "Actor"
+      "type": "humorist",
+      "firstname": "Robin",
+      "lastname": "Williams",
+      "biography": "Robin Williams was an American stand-up comedian and actor. He was known for his improvisational skills and the wide variety of characters he created.",
+      "email": "robin@example.com",
+      "phone": "678-901-2345"
     },
     {
       "id": "7",
-      "firstname": "Elton",
-      "lastname": "John",
-      "type": "Musician"
+      "type": "musician",
+      "firstname": "Jimi",
+      "lastname": "Hendrix",
+      "biography": "Jimi Hendrix was an American rock guitarist, singer, and songwriter. He is widely regarded as one of the most influential electric guitarists in the history of popular music.",
+      "email": "jimi@example.com",
+      "phone": "789-012-3456"
     },
     {
       "id": "8",
-      "firstname": "Eddie",
-      "lastname": "Murphy",
-      "type": "Humorist"
+      "type": "actor",
+      "firstname": "Leonardo",
+      "lastname": "DiCaprio",
+      "biography": "Leonardo DiCaprio is an American actor, producer, and environmentalist. He is known for his roles in films such as Titanic, Inception, and The Revenant.",
+      "email": "leonardo@example.com",
+      "phone": "890-123-4567"
     },
     {
       "id": "9",
-      "firstname": "Robert",
-      "lastname": "De Niro",
-      "type": "Actor"
+      "type": "humorist",
+      "firstname": "Tina",
+      "lastname": "Fey",
+      "biography": "Tina Fey is an American actress, comedian, writer, and producer. She is known for her work on Saturday Night Live and 30 Rock.",
+      "email": "tina@example.com",
+      "phone": "901-234-5678"
     },
     {
       "id": "10",
-      "firstname": "Beyoncé",
-      "lastname": "Knowles",
-      "type": "Musician"
+      "type": "musician",
+      "firstname": "Freddie",
+      "lastname": "Mercury",
+      "biography": "Freddie Mercury was a British singer, songwriter, and record producer. He was the lead vocalist of the rock band Queen.",
+      "email": "freddie@example.com",
+      "phone": "012-345-6789"
+    },
+    {
+      "type": "Humorist",
+      "firstname": "Cristiano",
+      "lastname": "Ronaldo",
+      "biography": "Footballer",
+      "email": "test@example.com",
+      "phone": "abcd",
+      "id": "bd6f"
+    },
+    {
+      "type": " Musician",
+      "firstname": "Zinedine",
+      "lastname": "abddd",
+      "biography": "abcd",
+      "email": "test@example.com",
+      "phone": "ab",
+      "id": "6e9a"
     }
   ],
   "users": [

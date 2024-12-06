@@ -1,5 +1,5 @@
 export class Spectacles {
-    id!: number;
+    id!: string;
     date!: string;
     name!: string;
     duration!: string;
@@ -8,4 +8,5 @@ export class Spectacles {
     type!: string;
     capacity!: number;
     hour!: string;
+    artistId!: string;
 }

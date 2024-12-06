@@ -1,0 +1,63 @@
+<p>artists works!</p>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()" style="display: flex; flex-direction: column; width: fit-content;">
+    <label for="type">Type:</label>
+    <input type="text" id="type" formControlName="type">
+
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" formControlName="firstname">
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" formControlName="lastname">
+
+    <label for="biography">Biography:</label>
+    <input type="text" id="biography" formControlName="biography">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" formControlName="email">
+
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" formControlName="phone">
+
+    <button type="submit" [disabled]="form.invalid">
+        Submit
+    </button>
+</form>
+
+<h1>Spectacles à venir:</h1>
+
+<div style="display: flex; flex-wrap: wrap;">
+    <div *ngFor="let artist of spectaclesArtist">
+        <div style="border: 2px solid #252525; padding: 1rem; margin: 1rem; width: 10rem;">
+            <h2>{{ artist.firstname }} {{ artist.lastname }}</h2>
+        
+            <div *ngIf="artist.spectacle.length > 0">
+            <h3>Spectacles associés :</h3>
+            <ul>
+                <li *ngFor="let spectacle of artist.spectacle">
+                {{ spectacle.name }} - {{ spectacle.date }}
+                </li>
+            </ul>
+            </div>
+            <div *ngIf="artist.spectacle.length === 0">
+            <p>Aucun spectacle associé à cet artiste.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2>Artistes:</h2>
+
+@if (artists) {
+    <div style="display: flex; flex-wrap: wrap;">
+        @for (artist of artists; track $index) {
+            <div style="border: 2px solid #252525; padding: 1rem; margin: 1rem; width: 10rem;">
+                <h2 style="text-transform: uppercase;">{{ artist.firstname }}<br>{{ artist.lastname }}</h2>
+                <p style="text-transform: uppercase;">{{ artist.type }}</p>
+                <p>{{ artist.biography }}</p>
+                <button [routerLink]="['/edit-artist', artist.id]">Edit</button>
+                <button (click)="deleteArtists(artist.id)">Supprimer</button>
+            </div>
+        }
+    </div>
+}

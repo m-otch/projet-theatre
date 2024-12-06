@@ -30,12 +30,18 @@
     </button>
 </form>
 
+<h1>Spectacles</h1>
+
 @if (spectacles) {
-    @for (spectacle of spectacles; track $index) {
-        <h2>{{ spectacle.name }}</h2>
-        <p>Date: {{ spectacle.date }}</p>
-        <p>{{ spectacle.duration }}</p>
-        <button [routerLink]="['/edit-spectacle', spectacle.id]">Edit</button>
-        <button (click)="deleteSpectacle(spectacle.id)">Supprimer</button>
-    }
+    <div style="display: flex; flex-wrap: wrap;">
+        @for (spectacle of spectacles; track $index) {
+            <div style="border: 2px solid #252525; padding: 1rem; margin: 1rem; width: 10rem;">
+                <h2>{{ spectacle.name }}</h2>
+                <p>Date: {{ spectacle.date }}</p>
+                <p>{{ spectacle.duration }}</p>
+                <button [routerLink]="['/edit-spectacle', spectacle.id]">Edit</button>
+                <button (click)="deleteSpectacle(spectacle.id)">Supprimer</button>
+            </div>
+        }
+    </div>
 }

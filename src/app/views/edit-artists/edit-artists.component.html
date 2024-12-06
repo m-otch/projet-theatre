@@ -1,0 +1,24 @@
+<p>edit-artists works!</p>
+<form [formGroup]="form" (ngSubmit)="onSubmit()" style="display: flex; flex-direction: column; width: fit-content;">
+    <label for="type">Type:</label>
+    <input type="text" id="type" formControlName="type">
+
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" formControlName="firstname">
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" formControlName="lastname">
+
+    <label for="biography">Biography:</label>
+    <input type="text" id="biography" formControlName="biography">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" formControlName="email">
+
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" formControlName="phone">
+
+    <button type="submit" [disabled]="form.invalid">
+        Submit
+    </button>
+</form>
