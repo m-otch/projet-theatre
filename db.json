@@ -109,16 +109,15 @@
       "artistId": "4"
     },
     {
-      "date": "2025-01-07",
-      "name": "Testingg",
-      "duration": "2 hours",
-      "description": "test",
-      "status": "full",
-      "type": "music",
+      "date": "2025-04-02",
+      "name": "Gwénola",
+      "duration": "1",
+      "description": "Cours d'Angular (pourri)",
+      "status": "En cours",
+      "type": "tets",
       "capacity": 100,
-      "hour": "2.5 hours",
-      "id": "10",
-      "artistId": "2"
+      "hour": "1",
+      "id": "0308"
     }
   ],
   "artists": [
@@ -229,6 +228,15 @@
       "email": "test@example.com",
       "phone": "ab",
       "id": "6e9a"
+    },
+    {
+      "id": "da6c",
+      "type": "Prof",
+      "firstname": "Gwénola",
+      "lastname": "La Prof",
+      "biography": "test",
+      "email": "gwenola@test.com",
+      "phone": "0618129"
     }
   ],
   "users": [
